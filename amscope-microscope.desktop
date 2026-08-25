@@ -1,0 +1,26 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=AmScope Microscope
+GenericName=USB Microscope Viewer
+Comment=View and capture images from the DM756-U830
+Exec=amscope-app
+Icon=camera-web
+Terminal=false
+Categories=AudioVideo;Video;
+Keywords=AmScope;microscope;camera;USB;DM756;
+StartupNotify=true
+Actions=FullHD;UltraHD;HD;
+X-GNOME-UsesNotifications=true
+
+[Desktop Action FullHD]
+Name=Open at 1920×1080
+Exec=amscope-app --size 1920x1080
+
+[Desktop Action UltraHD]
+Name=Open at 3840×2160
+Exec=amscope-app --size 3840x2160
+
+[Desktop Action HD]
+Name=Open at 1280×720
+Exec=amscope-app --size 1280x720

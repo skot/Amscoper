@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+# Compatibility command retained from the original launcher.
+exec amscope-app "$@"
